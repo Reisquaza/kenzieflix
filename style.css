@@ -1,0 +1,82 @@
+body {
+    background: #121214;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*LOGO*/
+.logo {
+    height: 200px;
+}
+.logo_descricao {
+    color: #fff;
+    font-size: 42px;
+}
+/*PERFIS*/
+.perfil_flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 240px;
+}
+.perfil_flex li {
+    list-style: none;
+    box-sizing: border-box;
+    width: 160px;
+}
+.perfil_maxIcone {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border: 2px #121214 solid;
+}
+.perfil_icone {
+    border-radius: 8px;
+}
+.perfil_link {
+    color: #9C9C9C;
+    text-decoration: none;
+}
+.perfil_link:hover {
+    color: #fff;
+}
+.perfil_maxIcone img:hover {
+    border: 2px #fff solid;
+    border-radius: 8px;
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+.perfil_maxIcone:hover {
+    border-radius: 8px;
+    border: 2px #fff solid;
+    color: #fff;
+}
+.perfil_adicionar {
+    background-image: url(./images/plus_circle.png);
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+}
+.perfil_adicionar:hover {
+    background-image: url(./images/plus_circle_hover.png);
+}
+/*GERENCIAR*/
+.gerenciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gerenciar_btn {
+    padding: 10px 40px;
+    border: 1px #fff solid;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+.gerenciar_btn:hover {
+    background-color: #fff;
+    color: #000;
+}
